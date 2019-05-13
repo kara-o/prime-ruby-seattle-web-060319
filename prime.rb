@@ -3,11 +3,11 @@
         return false
       end
       
-      else if num <= 3
+      elsif num <= 3
         return true
       end
       
-      else if num % 2 == 0 || num % 3 == 0
+      elsif num % 2 == 0 || num % 3 == 0
         return false
       end
       
