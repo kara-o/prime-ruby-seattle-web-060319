@@ -1,11 +1,9 @@
  def isPrime(num)
       if num <= 1 
         return false
-      end
       
       elsif num <= 3
         return true
-      end
       
       elsif num % 2 == 0 || num % 3 == 0
         return false
