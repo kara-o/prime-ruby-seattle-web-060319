@@ -14,8 +14,9 @@
       i = 5;
       while (i * i <= num) do
         if num % i == 0 || num % (i + 2) == 0
-          return false;
+          return false
+        end
         i += 6;
-      }
+      end
+      
       return true
-    }
